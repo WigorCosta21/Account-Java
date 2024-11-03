@@ -33,4 +33,12 @@ public class Account {
         return balance;
     }
 
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    public void withdraw(double amout) {
+        balance -= (amout + 5.0);
+    }
+
 }
