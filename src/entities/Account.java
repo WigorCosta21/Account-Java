@@ -16,4 +16,21 @@ public class Account {
         this.holder = holder;
         this.balance = balance;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public void setHolder(String holder) {
+        this.holder = holder;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
 }
